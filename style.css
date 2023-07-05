@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root{
+    --font: Times New Roman;
+    --cor0: #fff;
+    --cor1: #581111;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    background-color: var(--cor1);
+}
+main{
+    background-image: url("img/bg.jpg")  lightgray 50% / cover no-repeat;
+    /* filter: blur(5px); */
+}
+#main-text{
+    width: 925px;
+    margin: 0 auto;
+    /* color: var(--cor0); */
+    font: var(--font) 24px italic 700;
+    text-align: center;
+}
+#main-link{
+    width: 255px;
+    height: 81px;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
