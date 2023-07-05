@@ -20,43 +20,36 @@ header{
     background-color: var(--cor1);
 }
 main{
-    height: 100vh;
     background-image: url("img/bg-blur.jpg");
     background-position: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 }
 #main-title{
     margin: 140px 0 90px 0;
-    font-size: 14px;
-    transform: skew(-5deg, 0deg);
+    font-size: 30px;
 }
 #main-title-r{
     color: var(--cor1);
-    transform: translate(-3px, 29px);
+    transform: translate(-3px, 66px);
 }
 #main-title-y{
     color: var(--cor2);
 }
 #main-text{
     text-align: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto 80px auto;
     color: var(--cor0);
     font: var(--font) italic;
     font-size: 20px;
 }
 #main-link{
-    width: 185px;
-    text-align: center;
+    width: 10%;
     padding: 15px 30px;
     background-color: var(--cor1);
     color: var(--cor0);
     border-radius: 10px;
-}
-@media(min-width: 768px){
-    #main-title{
-        font-size: 20px;
-    }
 }
