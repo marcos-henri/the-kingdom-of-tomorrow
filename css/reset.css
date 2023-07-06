@@ -1,0 +1,18 @@
+@charset "UTF-8";
+:root{
+    --font: Times New Roman;
+    --cor0: #fff;
+    --cor1: #A61414;
+    --cor2: #d8b87d;
+    --cor3: #4A5914;
+    --cor4: #1C788C;
+    --cor5: #0D688C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    text-decoration: none;
+    color: var(--cor0);
+}

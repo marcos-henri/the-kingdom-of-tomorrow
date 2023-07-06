@@ -1,0 +1,21 @@
+@charset "UTF-8";
+header{
+    height: 90px;
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+#header-logo-img{
+    width: 30%;
+}
+#header-sobre{
+    opacity: 50%;
+    font-size: 20px;
+}
+#header-sobre:hover{
+    opacity: 100%;
+    transition: 150ms ease-in-out;
+}

@@ -1,0 +1,38 @@
+main{
+    height: 100vh;
+    background-image: url("../img/bg-blur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-logo{
+    margin: 140px auto 90px auto;
+    width: 100%;
+    text-align: center;
+}
+#main-logo-img{
+    width: 70%;
+}
+#main-title-r{
+    color: var(--cor1);
+    transform: translate(-3px, 29px);
+}
+#main-title-y{
+    color: var(--cor2);
+}
+#main-text{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 80px auto;
+    font: var(--font) italic;
+    font-size: 20px;
+}
+#main-link{
+    width: 185px;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+}
