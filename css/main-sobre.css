@@ -6,6 +6,7 @@ main{
 }
 .main-sobre{
     width: 40%;
+    height: 100vh;
     background-color: var(--cor1-a);
     margin: 0 50px;
     display: flex;
@@ -28,7 +29,7 @@ main{
     font-size: 18px;
 }
 .fa-brands{
-    font-size: 20px;
+    font-size: 24px;
     margin-right: 15px;
     opacity: 50%;
 }
@@ -36,4 +37,17 @@ main{
     opacity: 100%;
     transform: scale(1.6);
     transition: 150ms ease-in-out;
+}
+
+@media (max-width: 1024px) {
+    body{
+        overflow: scroll;
+    }
+    main{
+        flex-direction: column;
+    }
+    .main-sobre{
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
 }
