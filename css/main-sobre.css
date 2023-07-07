@@ -1,0 +1,40 @@
+body{
+    overflow: hidden;
+}
+main{
+    display: flex;
+}
+.main-sobre{
+    background-color: var(--cor1-a);
+    margin: 0 50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+}
+.main-sobre-photo{
+    width: 40%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.main-sobre-informations{
+    margin: 0 0 10px 20px;
+}
+.main-sobre-title,
+.main-sobre-p{
+    margin-bottom: 15px;
+}
+.main-sobre-p{
+    font-size: 18px;
+}
+.fa-brands{
+    font-size: 20px;
+    margin-right: 15px;
+    opacity: 50%;
+}
+.fa-brands:hover{
+    opacity: 100%;
+    transition: 150ms ease-in-out;
+}
